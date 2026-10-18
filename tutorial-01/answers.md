@@ -25,9 +25,9 @@ End
    
 ```mermaid
 graph TD
-    A([Start]) --> B[/Read num1, num2/]
-    B --> C[result = num1 * num2]
-    C --> D[/Print result/]
+    A([Start]) --> B[/"Read num1, num2"/]
+    B --> C["result = num1 * num2"]
+    C --> D[/"Print result"/]
     D --> E([End])
 ```
 ### QUESTION 2
