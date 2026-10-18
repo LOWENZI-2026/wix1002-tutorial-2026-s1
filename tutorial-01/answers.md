@@ -54,7 +54,7 @@ End
    
 ```mermaid
 graph TD
-    A([Start]) --> B[Generate random number, n]
+    A([Start]) --> B["Generate random number, n"]
     B --> C{n > 50?}
     C -->|Yes| D[/Print "The number is greater than 50"/]
     C -->|No| E[/Print "The number is not greater than 50"/]
