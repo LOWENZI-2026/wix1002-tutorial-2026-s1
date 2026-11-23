@@ -87,7 +87,7 @@ f.
 public static void generateRandomNumbers(int[] numbers) {
     Random rand = new Random();
     for (int i = 0; i < 10 && i < numbers.length; i++) {
-        numbers[i] = rand.nextInt(101); // 0 to 100 inclusive
+        numbers[i] = rand.nextInt(101); 
     }
 }
 ```
